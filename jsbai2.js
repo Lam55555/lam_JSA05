@@ -6,7 +6,7 @@ console.log(myArray)
 // myArray[2]=6;
 // console.log(myArray)
 
-myArray.splice(2,4,7,8); console.log(myArray)
+myArray.splice(2,1,7,8,1,2,3,4,5); console.log(myArray)
 
 // console.log(myArray.length)
 
