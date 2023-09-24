@@ -56,7 +56,7 @@
 
 { let userr = 
   {        
-     userr:
+     "userr":
     [
             {
                 "name": "John Doe",
@@ -69,6 +69,6 @@
             },
         ]
   }
-  console.log(userr)
+  document.getElementById("JSONN").innerHTML=userr;
 }
   
