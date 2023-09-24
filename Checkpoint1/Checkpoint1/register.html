@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Đăng ký/Đăng nhập</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login">
+        <form name='form-login'>
+    
+            <h1>ĐĂNG KÝ</h1>
+    
+            <label for="name">Email/Tên</label>
+            <input type="email" id="name" placeholder="Username" required>
+    
+            <label for="pw">Mật Khẩu</label>
+            <input type="password"
+                   id= "pw"
+                   placeholder="Password" required>
+    
+            <ul class="helper-text">
+                <li class="length">Phải dài hơn 8 chữ.</li>
+                <li class="lowercase">Phải có ít nhất 1 chữ in thường.</li>
+                <li class="uppercase">Phải có ít nhất 1 chữ in hoa.</li>
+                <!-- <li class="special">Phải có 1 ký hiệu đặc biệt.</li> -->
+            </ul>
+            <input id="rgstr_btn" type="submit" value="Register" onclick="store()">
+    
+        </form>
+    </div>
+    
+    <div class="login">
+        <form name='form-login'>
+    
+            <h1>ĐĂNG NHẬP</h1>
+    
+            <label for="userName">Email/Tên</label>
+            <input type="email" id="userName" placeholder="Username" required>
+    
+            <label for="userPw">Mật Khẩu</label>
+            <input type="password" id= "userPw" placeholder="Password" required>
+    
+            <div id="remember">
+                <input type="checkbox" value="lsRememberMe" id="rememberMe"
+                       style="display: inline-block;">
+                <label>Lưu người dùng</label>
+            </div>
+    
+            <input id= "login_btn" type="submit" value="Login" onclick="check()">
+    
+        </form>
+    </div> 
+    
+    <a href="show.html">Xem thông tin người dùng</a>    
+<script src="register.js"></script>
+</body>
+</html>

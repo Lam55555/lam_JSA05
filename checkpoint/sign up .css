@@ -1,0 +1,10 @@
+.signup{background-color: rgb(25, 149, 25);width: 600px; height: 600px; border: 1px solid green; margin: auto; justify-content: center; display: flex;}
+.signup_container{border: 1px solid red; margin-left: 15px; width: 450px;margin: auto ; height: 500px; background-color: aqua;}
+.signup_container input{ text-align: center; border: 1px solid blue; margin-left: 15px; color: red;}
+h5{margin-left: 15px;}
+.signup_container button{margin-left: 15px;}
+button:hover{color: blue; background-color:aqua; border: none;}
+a{margin-left: 15px;}
+h1{text-align: center; color: blue;}
+.lienket{display: block;}
+a:hover{color: blue}

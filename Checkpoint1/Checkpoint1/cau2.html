@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tao ra 1 hinh tam giac</title>
+</head>
+<body>
+<script>
+    
+const n = parseInt(prompt('Xin hay vui long nhap so: '));
+let string = "";
+//Loop
+for (let i = 1; i <= n; i++) {
+  //Ve o trong
+  for (let j = 1; j <= n - i; j++) {
+    string += " ";
+  }
+  //Ve sao
+  for (let k = 0; k < 2 * i - 1; k++) {
+    if(i === 1 || i === n) {
+      string += "*";
+    }
+    else {
+      if(k === 0 || k === 2 * i - 2) {
+        string += "*";
+      }
+      else {
+        string += " ";
+      }
+    }
+  }
+  string += "\n";
+}
+console.log(string);
+
+</script>
+</body>
+</html>
